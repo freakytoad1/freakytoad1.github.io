@@ -6,7 +6,9 @@ theme = 'gokarna'
 # Automatically generate robots.txt
 enableRobotsTXT = true
 
-googleAnalytics = "G-P218D61XMB"
+[services]
+  [services.googleAnalytics]
+    ID = 'G-P218D61XMB'
 
 [menu]
   [[menu.main]]
